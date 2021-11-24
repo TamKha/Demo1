@@ -29,7 +29,7 @@ style={{ width: "100%", height: "30%", backgroundColor: "lightblue", textAlign:"
       What would you like to get out of this course?
     </text>
 
-    <TextInput style ={{backgroundColor: "lightblue", width:"400px" , height:"120px", textAlign:"center", margin:"5px"}}placeholder="initial"  onChangeText={handleChangeText}/>
+    <TextInput style ={{backgroundColor: "lightblue", width:"400px" , textAlign:"center", height:"120px", margin:"5px"}}placeholder="Initial Text"  onChangeText={handleChangeText}/>
 
     <text style={{fontWeight:"bold" , margin:"20px"}}>An emoji describing how you are feeling about the course:</text>
 
